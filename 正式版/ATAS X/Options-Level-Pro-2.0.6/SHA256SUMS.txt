@@ -1,0 +1,4 @@
+﻿22266d9a7dd8fadeb180c48046f2f945c91154d3ac2644ee02b6b970c0466e65  BUILD_INFO-2.0.6.md
+4c968dee8efc7bad9455b162fdfcfc8b2acf81b2bd40cb3b129b96edc91a7f30  Options-Level-Pro-2.0.6-ATAS-X.dll
+8f6fca04fbfb63eab5f9857f54cea57fa0f4b43ea7d1cdd0f6d86f1b1be3c83c  README-2.0.6.md
+e8bbb83bb6fb63ddbaa02d5ca0f2fe8b5c4e367c211dd2ac7c9b97bb37903b64  RELEASE_NOTES-2.0.6.md

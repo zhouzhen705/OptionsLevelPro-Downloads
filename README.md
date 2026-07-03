@@ -11,19 +11,36 @@ Options Level Pro is a TradingHub ATAS indicator that draws options key levels a
 中文：请选择与自己 ATAS 大版本一致的 DLL，不同 ATAS 大版本的 DLL 不能混用。
 English: Choose the DLL that matches your ATAS major version. DLLs for different ATAS major versions are not interchangeable.
 
+中文：公开下载入口按 Options Level Pro 大版本线只提供该大版本的最新版；同一大版本内的旧小版本不再展示下载入口。
+English: Public download links provide only the latest release for each Options Level Pro major line; older minor or patch releases within the same major line are not listed.
+
+中文：仓库 `正式版` 目录会保留所有已发布 DLL，例如 `2.0.6`、`2.0.7` 和 `2.0.8`；只有网站下载入口默认推荐每个大版本线的最新版。
+English: The repository stable directory retains every released DLL, such as `2.0.6`, `2.0.7`, and `2.0.8`; only the website download entry recommends the latest release for each major line by default.
+
 | 推荐版本 / Recommended | ATAS 版本 / ATAS Version | DLL | 使用教程 / User Guide | 发布说明 / Release Notes |
 | --- | --- | --- | --- | --- |
+| 2.0.8 | ATAS 8.x | [Options-Level-Pro-2.0.8-ATAS-8.x.dll](正式版/8.x/Options-Level-Pro-2.0.8/Options-Level-Pro-2.0.8-ATAS-8.x.dll) | [使用教程 / User Guide](docs/使用教程.md) | [Release Notes](正式版/8.x/Options-Level-Pro-2.0.8/RELEASE_NOTES-2.0.8.md) |
+| 2.0.8 | ATAS 7.x | [Options-Level-Pro-2.0.8-ATAS-7.x.dll](正式版/7.x/Options-Level-Pro-2.0.8/Options-Level-Pro-2.0.8-ATAS-7.x.dll) | [使用教程 / User Guide](docs/使用教程.md) | [Release Notes](正式版/7.x/Options-Level-Pro-2.0.8/RELEASE_NOTES-2.0.8.md) |
+| 2.0.8 | ATAS X | [Options-Level-Pro-2.0.8-ATAS-X.dll](正式版/ATAS%20X/Options-Level-Pro-2.0.8/Options-Level-Pro-2.0.8-ATAS-X.dll) | [使用教程 / User Guide](docs/使用教程.md) | [Release Notes](正式版/ATAS%20X/Options-Level-Pro-2.0.8/RELEASE_NOTES-2.0.8.md) |
 | 1.0.0 | ATAS 8.x | [Options-Level-Pro-1.0.0-ATAS-8.x.dll](正式版/8.x/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-8.x.dll) | [使用教程 / User Guide](docs/使用教程.md) | [Release Notes](正式版/8.x/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) |
 | 1.0.0 | ATAS 7.x | [Options-Level-Pro-1.0.0-ATAS-7.x.dll](正式版/7.x/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-7.x.dll) | [使用教程 / User Guide](docs/使用教程.md) | [Release Notes](正式版/7.x/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) |
 | 1.0.0 | ATAS X | [Options-Level-Pro-1.0.0-ATAS-X.dll](正式版/ATAS%20X/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-X.dll) | [使用教程 / User Guide](docs/使用教程.md) | [Release Notes](正式版/ATAS%20X/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) |
 
-## 1.0.0 热修 / 1.0.0 Hotfix
+## 2.0.8 正式版 / 2.0.8 Stable Release
 
-中文：ATAS 7.x / 8.x / ATAS X 的 `1.0.0` DLL 已重新打包，修复图表偶发显示 `0.00` 水平线的问题，统一 ATAS X 版本号，并将 protected API 默认入口切换到 TradingHub 正式 HTTPS 域名。
-English: The ATAS 7.x / 8.x / ATAS X `1.0.0` DLLs have been repackaged to fix the occasional `0.00` horizontal line on charts, align the ATAS X version number, and move the protected API default endpoint to the formal TradingHub HTTPS domain.
+中文：`2.0.8` 正式版恢复盘中 0DTE 热图右侧延长线；没有新 K 线时，最新热图关键位仍会延伸到图表右侧空白区域。请按 ATAS 大版本下载对应 DLL。
+English: The `2.0.8` stable release restores the intraday 0DTE heatmap right-side extension, keeping the latest heatmap key levels extended into the right-side chart area when no new candle has printed yet. Download the DLL matching your ATAS major version.
 
-中文：下载仓库只保留 `1.0.0` 正式版；旧 `0.6.x` DLL 和说明文件已移除。
-English: The download repository retains only the `1.0.0` stable release; old `0.6.x` DLLs and package notes have been removed.
+## 历史更新日志 / Historical Changelog
+
+中文：`1.0.0` 是 1.x 大版本线的当前最新版，继续保留公开下载入口。未来同一大版本线发布新小版本后，只展示该大版本线的新最新版。
+English: `1.0.0` is the current latest release of the 1.x major line and remains listed as a public download. When a newer minor or patch release appears within the same major line, only the newest release for that major line will be listed.
+
+中文：历史小版本的更新日志和 DLL 文件会继续保留在仓库中；网站下载入口不展示旧小版本，如需处理特殊回滚或支持场景，请走人工支持流程。
+English: Changelogs and DLL files for older minor or patch releases remain in the repository; the website download entry does not list old minor or patch releases, so use the support workflow for special rollback or support cases.
+
+中文：为兼容历史支持场景，ATAS 7.x、ATAS 8.x 和 ATAS X 的历史版本文件夹会继续保留在正式版目录中。
+English: For historical support compatibility, historical release folders for ATAS 7.x, ATAS 8.x, and ATAS X remain in the stable release directory.
 
 ## 安装方法 / Installation
 
@@ -57,6 +74,9 @@ English: This README keeps the download index and quick installation notes; `doc
 
 | 版本 / Version | ATAS | DLL | 发布说明 / Release Notes | 说明文件 / README | 构建信息 / Build Info |
 | --- | --- | --- | --- | --- | --- |
+| 2.0.8 | ATAS X | [DLL](正式版/ATAS%20X/Options-Level-Pro-2.0.8/Options-Level-Pro-2.0.8-ATAS-X.dll) | [Release Notes](正式版/ATAS%20X/Options-Level-Pro-2.0.8/RELEASE_NOTES-2.0.8.md) | [README](正式版/ATAS%20X/Options-Level-Pro-2.0.8/README-2.0.8.md) | [Build Info](正式版/ATAS%20X/Options-Level-Pro-2.0.8/BUILD_INFO-2.0.8.md) |
+| 2.0.8 | 8.x | [DLL](正式版/8.x/Options-Level-Pro-2.0.8/Options-Level-Pro-2.0.8-ATAS-8.x.dll) | [Release Notes](正式版/8.x/Options-Level-Pro-2.0.8/RELEASE_NOTES-2.0.8.md) | [README](正式版/8.x/Options-Level-Pro-2.0.8/README-2.0.8.md) | [Build Info](正式版/8.x/Options-Level-Pro-2.0.8/BUILD_INFO-2.0.8.md) |
+| 2.0.8 | 7.x | [DLL](正式版/7.x/Options-Level-Pro-2.0.8/Options-Level-Pro-2.0.8-ATAS-7.x.dll) | [Release Notes](正式版/7.x/Options-Level-Pro-2.0.8/RELEASE_NOTES-2.0.8.md) | [README](正式版/7.x/Options-Level-Pro-2.0.8/README-2.0.8.md) | [Build Info](正式版/7.x/Options-Level-Pro-2.0.8/BUILD_INFO-2.0.8.md) |
 | 1.0.0 | ATAS X | [DLL](正式版/ATAS%20X/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-X.dll) | [Release Notes](正式版/ATAS%20X/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) | [README](正式版/ATAS%20X/Options-Level-Pro-1.0.0/README-1.0.0.md) | [Build Info](正式版/ATAS%20X/Options-Level-Pro-1.0.0/BUILD_INFO-1.0.0.md) |
 | 1.0.0 | 8.x | [DLL](正式版/8.x/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-8.x.dll) | [Release Notes](正式版/8.x/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) | [README](正式版/8.x/Options-Level-Pro-1.0.0/README-1.0.0.md) | [Build Info](正式版/8.x/Options-Level-Pro-1.0.0/BUILD_INFO-1.0.0.md) |
 | 1.0.0 | 7.x | [DLL](正式版/7.x/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-7.x.dll) | [Release Notes](正式版/7.x/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) | [README](正式版/7.x/Options-Level-Pro-1.0.0/README-1.0.0.md) | [Build Info](正式版/7.x/Options-Level-Pro-1.0.0/BUILD_INFO-1.0.0.md) |
